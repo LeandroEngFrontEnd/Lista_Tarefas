@@ -28,7 +28,7 @@ $(document).ready(function () {
             $(this).parent('li').fadeOut(200);
         });
         
-        $('.contentTask').on('click', 'p', function () {
+        $('.contentTask').on('click', 'li', function () {
             $(this).toggleClass('riscar');
         });
 

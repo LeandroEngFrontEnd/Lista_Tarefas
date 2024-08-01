@@ -81,7 +81,7 @@ button {
     background-repeat: no-repeat;
     padding: 126px;
     text-align: center;
-    transition: all ease 5s;
+    transition:  ease 5s;
     display: none;
 }
 
