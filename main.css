@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background: url(img/background.jpg);
+    background-size: cover;
+}
+
+.container-task {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 660px;
+    width: 100%;
+    margin: 200px auto;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 16px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 45px;
+    margin-right: 8px;
+}
+
+header h1 {
+    font-family: "Playwrite BE WAL", cursive;
+    color: #fff;
+    margin-right: 16px;
+}
+
+
+form {
+    padding: 32px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    display: flex;
+    margin: 0  auto;
+    display: none;
+}
+
+input,
+button {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 8px;
+    padding: 2px 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+
+button {
+    background-color: #07b807;
+    color: #fff;
+}
+
+#btn-reset {
+    background-color: red;
+    color: #fff;
+}
+
+.contentTask {
+    width: 100%;
+    background-image: url(img/blocontainer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 126px;
+    text-align: center;
+}
+
+.contentTask li {
+    width: 100%;
+    padding: 16px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: solid 1px #000;
+}
+
+.contentTask li p {
+    font-family: "Playwrite BE WAL", cursive;
+    font-size: 16px;
+    margin-left: 126px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.contentTask li .fa-trash{
+    color: red;
+    cursor: pointer;
+}
+
+.riscar {
+    text-decoration: line-through;
+}
+
