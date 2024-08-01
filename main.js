@@ -24,14 +24,15 @@ $(document).ready(function () {
         $(itemTask).appendTo('.contentTask');
         $('#inputTask').val('');
 
-        $('.contentTask').on('click', '.fa-trash', function () {
-            $(this).parent('li').fadeOut(200);
-        });
-        
-        $('.contentTask').on('click', 'li', function () {
-            $(this).toggleClass('riscar');
-        });
+    });
 
+    $('.contentTask').on('click', 'p', function () {
+        $(this).toggleClass('riscar');
+    });
+
+
+    $('.contentTask').on('click', '.fa-trash', function () {
+        $(this).parent('li').fadeOut(200);
     });
 
 });
