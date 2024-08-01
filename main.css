@@ -16,11 +16,12 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     max-width: 660px;
     width: 100%;
-    margin: 200px auto;
+    margin: 50px auto;
     overflow: hidden;
 }
 
 header {
+    height: 200px;
     width: 100%;
     padding: 16px;
     background-color: #000;
@@ -73,13 +74,15 @@ button {
 }
 
 .contentTask {
+    height: 700px;
     width: 100%;
     background-image: url(img/blocontainer.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
     padding: 126px;
     text-align: center;
+    transition: all ease 5s;
+    display: none;
 }
 
 .contentTask li {

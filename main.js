@@ -8,6 +8,14 @@ $(document).ready(function () {
         $('form').slideUp();
     });
 
+    $('header button').click(function () {
+        $('.contentTask').slideDown();
+    });
+
+    $('#btn-reset').click(function () {
+        $('.contentTask').slideUp();
+    });
+
     $('form').on('submit', function (e) {
         e.preventDefault();
         const valorInput = $('#inputTask').val();
@@ -20,7 +28,7 @@ $(document).ready(function () {
             $(this).parent('li').fadeOut(200);
         });
         
-        $('.contentTask').on('click', 'li', function () {
+        $('.contentTask').on('click', 'p', function () {
             $(this).toggleClass('riscar');
         });
 
